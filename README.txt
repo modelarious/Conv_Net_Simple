@@ -380,19 +380,19 @@ train_CNN
 FURTHER:
 
 	Data augmentation would be a great addition: some rotations, reflexions, 
-	translations, etc.
-	https://cartesianfaith.com/2016/10/06/what-you-need-to-know-about-data-augmentation-for-machine-learning/
-	http://www.pyimagesearch.com/2017/01/02/rotate-images-correctly-with-opencv-and-python/
+	translations, etc.	
 	
-	Batch Normalization looks very promising
+	Batch Normalization looks very promising.
 	
 	experiment with dropout on conv layers
 	https://arxiv.org/pdf/1506.02158v6.pdf
 	https://www.reddit.com/r/MachineLearning/comments/42nnpe/why_do_i_never_see_dropout_applied_in/#bottom-comments
+	If not dropout, then L1 or L2 regularization could be promising as well.
 	
-	Read about a good initialization method being the identity matrix
+	Read about a good initialization method being the identity matrix. Also read about an initialization technique which uses
+	RBMs to set the initial weights, then train them from that initialization.
 	
 	Bayesian hyperparameter optimization is very impressive, the evolutionary technique
 	is a lot less efficient. Though evolutionary techniques are good for coming up with
-	"good enough" optimizations of very complex systems (such as the designing the optimal
+	great optimizations of very complex systems (such as the designing the optimal
 	shape for the antenna for two of NASA's expeditions)
